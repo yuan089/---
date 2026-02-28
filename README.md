@@ -17,3 +17,4 @@
 -客製化卡帶合集由一個紅石粉末一個鐵錠合成
 -刻錄機由九個銅錠合成
 這是我的B站 https://space.bilibili.com/594712126?spm_id_from=333.1007.0.0
+有需求可以加入我們的Team https://teams.live.com/l/community/FEAxESAQiBIHaf30QI
