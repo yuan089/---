@@ -1,0 +1,8 @@
+{
+    "resource_pack_name": "bangdream_rp",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "walkman": { "textures": "textures/items/walkman" },
+        "cassette": { "textures": "textures/items/cassette" }
+    }
+}

@@ -1,0 +1,45 @@
+﻿## アイテムとブロック
+item.bangdream:walkman=ポータブルミュージックプレーヤー
+item.bangdream:cassette=カスタムカセット
+item.bangdream:blank_record=§7空白のレコード
+tile.bangdream:jukebox.name=特製ジュークボックス
+tile.bangdream:keluji.name=ミュージックレコーダー
+
+## プレーヤー UI
+walkman.ui.title=ポータブルミュージックプレーヤー
+walkman.ui.body=ディスクを選択して読み込むか、設定を変更してください：
+walkman.ui.settings=⚙ プレイヤー設定
+walkman.ui.stop=■ 再生停止
+walkman.ui.save=変更を保存
+walkman.ui.loaded=§a[プレイヤー] §f読み込み完了: §6
+walkman.ui.stopped=§e[プレイヤー] 再生を停止しました。
+walkman.settings.title=プレイヤー設定
+walkman.settings.volume=音量 (0-100%)
+walkman.settings.offset=再生時間の微調整 (秒)
+walkman.settings.updated=§a[プレイヤー] §f設定を更新しました！
+
+## レコーダーと検索 UI
+walkman.ui.burner_title=音楽書き込みシステム
+walkman.ui.burner_body=このカセットに対する操作を選択してください：
+walkman.ui.burner_all=全ディスクを書き込む
+walkman.ui.burner_manual=曲の検索と選択
+walkman.ui.burner_clear=カセットを初期化
+walkman.ui.burner_success=§a書き込み完了！曲数: %s
+walkman.ui.burner_cleared=§eカセットが初期化されました。
+walkman.ui.need_cassette=§cカスタムカセットを手元に用意してください。
+walkman.ui.burner_no_cassette=§c[警告] §f「ポータブルミュージックカセット」を手元に用意してください！
+walkman.ui.search_filter=§0曲を検索 (キーワード入力)
+walkman.ui.search_reset=§8検索をリセット (すべて表示)
+walkman.actionbar.jukebox_playlist=§d[ジュークボックス] §f再生中 (%s/%s): §6
+walkman.actionbar.jukebox_single=§d[ジュークボックス] §f再生中: §6
+
+## 検索
+walkman.ui.search_label=§7検索キーワード (送信して絞り込む)
+walkman.ui.search_placeholder=做MOD真的好累你們知道嘛
+walkman.ui.search_confirm=保存して終了
+
+## アクションバー
+walkman.actionbar.playing=§e[プレイヤー] §f再生中: §6
+record.nowPlaying=§d再生中: §f
+walkman.actionbar.cassette_hud=§eカセットの状態: §b%s / 60
+walkman.actionbar.playlist=§e[プレイリスト] §f(%s/%s): §6

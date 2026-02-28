@@ -1,0 +1,45 @@
+﻿## 아이템 및 블록
+item.bangdream:walkman=휴대용 음악 플레이어
+item.bangdream:cassette=커스텀 음악 카세트
+item.bangdream:blank_record=§7빈 레코드
+tile.bangdream:jukebox.name=특제 주크박스
+tile.bangdream:keluji.name=음악 레코더
+
+## 플레이어 UI
+walkman.ui.title=휴대용 음악 플레이어
+walkman.ui.body=디스크를 선택하여 장착하거나 설정을 변경하세요:
+walkman.ui.settings=⚙ 플레이어 설정
+walkman.ui.stop=■ 재생 중지
+walkman.ui.save=변경 사항 저장
+walkman.ui.loaded=§a[플레이어] §f장착 완료: §6
+walkman.ui.stopped=§e[플레이어] 재생이 중지되었습니다.
+walkman.settings.title=플레이어 설정
+walkman.settings.volume=재생 볼륨 (0-100%)
+walkman.settings.offset=재생 시간 미세 조정 (초)
+walkman.settings.updated=§a[플레이어] §f설정이 업데이트되었습니다!
+
+## 레코더 및 검색 UI
+walkman.ui.burner_title=음악 기록 시스템
+walkman.ui.burner_body=이 카세트에 대한 작업을 선택하십시오:
+walkman.ui.burner_all=모든 디스크 기록
+walkman.ui.burner_manual=곡 검색 및 선택
+walkman.ui.burner_clear=카세트 데이터 초기화
+walkman.ui.burner_success=§a기록 성공! 곡 수: %s
+walkman.ui.burner_cleared=§e카세트가 초기화되었습니다.
+walkman.ui.need_cassette=§c커스텀 카세트를 손에 들어주세요.
+walkman.ui.burner_no_cassette=§c[경고] §f"휴대용 음악 카세트"를 손에 들고 조작하십시오!
+walkman.ui.search_filter=§0곡 검색 (키워드 입력)
+walkman.ui.search_reset=§8검색 초기화 (전체 표시)
+walkman.actionbar.jukebox_playlist=§d[주크박스] §f현재 재생 중 (%s/%s): §6
+walkman.actionbar.jukebox_single=§d[주크박스] §f현재 재생 중: §6
+
+## 검색
+walkman.ui.search_label=§7검색어 (입력 후 필터링)
+walkman.ui.search_placeholder=做MOD真的好累你們知道嘛
+walkman.ui.search_confirm=저장 및 확인
+
+## 액션바
+walkman.actionbar.playing=§e[플레이어] §f재생 중: §6
+record.nowPlaying=§d재생 중: §f
+walkman.actionbar.cassette_hud=§e카세트 상태: §b%s / 60
+walkman.actionbar.playlist=§e[재생목록] §f(%s/%s): §6

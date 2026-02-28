@@ -1,0 +1,6 @@
+{
+    "sound_definitions": {
+        "plugin.music_name": { "category": "record", "sounds": [ "music_path" ] },
+        "plugin.music_name.ui": { "category": "ui", "sounds": [ "music_path" ] }
+    }
+}

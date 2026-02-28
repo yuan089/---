@@ -1,0 +1,44 @@
+﻿## 物品與方塊名稱
+item.bangdream:walkman=便攜式音樂播放器
+item.bangdream:cassette=便攜式播放卡帶
+item.bangdream:blank_record=§7空白唱片
+tile.bangdream:jukebox.name=特製唱片機
+tile.bangdream:keluji.name=音樂刻錄機
+
+## 播放器 UI
+walkman.ui.title=便攜式音樂播放器
+walkman.ui.body=請選擇碟片進行裝載或更改設置：
+walkman.ui.settings=⚙ 播放器設置
+walkman.ui.stop=■ 停止播放
+walkman.ui.save=確認修改
+walkman.ui.loaded=§a[播放器] §f已裝載: §6
+walkman.ui.stopped=§e[播放器] 播放已停止。
+walkman.settings.title=播放器設置
+walkman.settings.volume=播放音量 (0-100%)
+walkman.settings.offset=時長微調 (秒)
+walkman.settings.updated=§a[播放器] §f設置已更新！
+
+## 刻錄與檢索系統 UI
+walkman.ui.burner_title=音樂刻錄系統
+walkman.ui.burner_body=請選擇對此卡帶的操作：
+walkman.ui.burner_all=一鍵刻錄背包碟片
+walkman.ui.burner_manual=檢索並選擇歌曲
+walkman.ui.burner_clear=清空卡帶數據
+walkman.ui.burner_success=§a刻錄成功！歌曲數量: %s
+walkman.ui.burner_cleared=§e卡帶內容已清空。
+walkman.ui.need_cassette=§c請手持播放卡帶使用刻錄機
+walkman.ui.burner_no_cassette=§c[警告] §f請手持「便攜式播放卡帶」進行操作！
+walkman.ui.search_filter=§0搜尋歌曲...
+walkman.ui.search_reset=§8重置搜尋 (顯示全部)
+walkman.actionbar.jukebox_playlist=§d[唱片機] §f正在播放 (%s/%s): §6
+
+## 檢索專用
+walkman.ui.search_label=§7搜尋關鍵字 (輸入後點擊提交以過濾)
+walkman.ui.search_placeholder=做MOD真的好累你們知道嘛
+walkman.ui.search_confirm=確認並保存錄製
+
+## 動作欄 (ActionBar) HUD
+walkman.actionbar.playing=§e[播放器] §f正在播放: §6
+record.nowPlaying=§d正在播放: §f
+walkman.actionbar.cassette_hud=§e卡帶錄製狀態: §b%s / 60
+walkman.actionbar.playlist=§e[列表模式] §f(%s/%s): §6

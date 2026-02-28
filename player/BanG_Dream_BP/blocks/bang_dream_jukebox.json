@@ -1,0 +1,41 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bangdream:jukebox",
+            "menu_category": { "category": "items", "group": "itemGroup.name.item" },
+            "states": {
+                "bangdream:has_disc": [false, true],
+                "bangdream:direction": [0, 1, 2, 3] 
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.bangdream:jukebox.name",
+            "minecraft:destructible_by_mining": { "seconds_to_destroy": 1.5 },
+            "minecraft:geometry": { "identifier": "geometry.bangdream_jukebox" },
+            "minecraft:collision_box": { "origin": [-8, 0, -8], "size": [16, 16, 16] },
+            "minecraft:selection_box": { "origin": [-8, 0, -8], "size": [16, 16, 16] },
+            // 預設外觀
+            "minecraft:material_instances": {
+                "*": { "texture": "bd_jukebox_side", "render_method": "opaque" },
+                "up": { "texture": "bd_jukebox_top", "render_method": "opaque" },
+                "down": { "texture": "bd_jukebox_side", "render_method": "opaque" }
+            },
+            "minecraft:custom_components": ["bangdream:jukebox_logic"]
+        },
+        "permutations": [
+            // 方向 0: 北
+            { "condition": "q.block_state('bangdream:direction') == 0", "components": { "minecraft:material_instances": { "north": { "texture": "bd_jukebox_front_idle" }, "up": { "texture": "bd_jukebox_top" }, "*": { "texture": "bd_jukebox_side" } } } },
+            { "condition": "q.block_state('bangdream:direction') == 0 && q.block_state('bangdream:has_disc') == true", "components": { "minecraft:material_instances": { "north": { "texture": "bd_jukebox_front_active" }, "up": { "texture": "bd_jukebox_top" }, "*": { "texture": "bd_jukebox_side" } } } },
+            // 方向 1: 南
+            { "condition": "q.block_state('bangdream:direction') == 1", "components": { "minecraft:material_instances": { "south": { "texture": "bd_jukebox_front_idle" }, "up": { "texture": "bd_jukebox_top" }, "*": { "texture": "bd_jukebox_side" } } } },
+            { "condition": "q.block_state('bangdream:direction') == 1 && q.block_state('bangdream:has_disc') == true", "components": { "minecraft:material_instances": { "south": { "texture": "bd_jukebox_front_active" }, "up": { "texture": "bd_jukebox_top" }, "*": { "texture": "bd_jukebox_side" } } } },
+            // 方向 2: 西
+            { "condition": "q.block_state('bangdream:direction') == 2", "components": { "minecraft:material_instances": { "west": { "texture": "bd_jukebox_front_idle" }, "up": { "texture": "bd_jukebox_top" }, "*": { "texture": "bd_jukebox_side" } } } },
+            { "condition": "q.block_state('bangdream:direction') == 2 && q.block_state('bangdream:has_disc') == true", "components": { "minecraft:material_instances": { "west": { "texture": "bd_jukebox_front_active" }, "up": { "texture": "bd_jukebox_top" }, "*": { "texture": "bd_jukebox_side" } } } },
+            // 方向 3: 東
+            { "condition": "q.block_state('bangdream:direction') == 3", "components": { "minecraft:material_instances": { "east": { "texture": "bd_jukebox_front_idle" }, "up": { "texture": "bd_jukebox_top" }, "*": { "texture": "bd_jukebox_side" } } } },
+            { "condition": "q.block_state('bangdream:direction') == 3 && q.block_state('bangdream:has_disc') == true", "components": { "minecraft:material_instances": { "east": { "texture": "bd_jukebox_front_active" }, "up": { "texture": "bd_jukebox_top" }, "*": { "texture": "bd_jukebox_side" } } } }
+        ]
+    }
+}

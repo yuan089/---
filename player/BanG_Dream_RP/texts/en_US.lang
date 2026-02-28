@@ -1,0 +1,45 @@
+## Items & Blocks
+item.bangdream:walkman=Portable Music Player
+item.bangdream:cassette=Custom Music Cassette
+item.bangdream:blank_record=§7Blank Record
+tile.bangdream:jukebox.name=Custom Jukebox
+tile.bangdream:keluji.name=Music Burner
+
+## Player UI
+walkman.ui.title=Portable Music Player
+walkman.ui.body=Select a disc to load or change settings:
+walkman.ui.settings=⚙ Player Settings
+walkman.ui.stop=■ Stop Playback
+walkman.ui.save=Save Changes
+walkman.ui.loaded=§a[Player] §fLoaded: §6
+walkman.ui.stopped=§e[Player] Playback stopped.
+walkman.settings.title=Player Settings
+walkman.settings.volume=Volume (0-100%)
+walkman.settings.offset=Duration Offset (Sec)
+walkman.settings.updated=§a[Player] §fSettings updated!
+
+## Burner & Search UI
+walkman.ui.burner_title=Music Burning System
+walkman.ui.burner_body=Select an action for this cassette:
+walkman.ui.burner_all=Record all discs in inventory
+walkman.ui.burner_manual=Search & Select Songs
+walkman.ui.burner_clear=Clear cassette data
+walkman.ui.burner_success=§aRecording successful! Total: %s
+walkman.ui.burner_cleared=§eCassette content cleared.
+walkman.ui.need_cassette=§cPlease hold a Music Cassette.
+walkman.ui.burner_no_cassette=§c[Warning] §fPlease hold a "Portable Music Cassette" to operate!
+walkman.ui.search_filter=§0Search Songs (Enter Keyword)
+walkman.ui.search_reset=§8Reset Search (Show All)
+walkman.actionbar.jukebox_playlist=§d[Jukebox] §fNow Playing (%s/%s): §6
+walkman.actionbar.jukebox_single=§d[Jukebox] §fNow Playing: §6
+
+## Search Specific
+walkman.ui.search_label=§7Search Keyword (Submit to Filter)
+walkman.ui.search_placeholder=做MOD真的好累你們知道嘛
+walkman.ui.search_confirm=Confirm and Save
+
+## ActionBar HUD
+walkman.actionbar.playing=§e[Player] §fNow Playing: §6
+record.nowPlaying=§dNow Playing: §f
+walkman.actionbar.cassette_hud=§eCassette Status: §b%s / 60
+walkman.actionbar.playlist=§e[Playlist] §f(%s/%s): §6

@@ -1,0 +1,14 @@
+{
+    "resource_pack_name": "bangdream_rp",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "bd_jukebox_top": { "textures": "textures/blocks/bd_jukebox_top" },
+        "bd_jukebox_side": { "textures": "textures/blocks/bd_jukebox_side" },
+        "bd_jukebox_front_idle": { "textures": "textures/blocks/bd_jukebox_front_idle" },
+        "bd_jukebox_front_active": { "textures": "textures/blocks/bd_jukebox_front_active" },
+        "keluji_top": { "textures": "textures/blocks/keluji_top" },
+        "keluji_side": { "textures": "textures/blocks/keluji_side" },
+        "keluji_front_idle": { "textures": "textures/blocks/keluji_front_idle" },
+        "keluji_front_active": { "textures": "textures/blocks/keluji_front_active" }
+    }
+}

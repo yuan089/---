@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "bangdream:craft_walkman"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "IC"
+        ],
+        "key": {
+            "I": {
+                "item": "minecraft:iron_ingot"
+            },
+            "C": {
+                "item": "minecraft:copper_ingot"
+            }
+        },
+        "result": {
+            "item": "bangdream:walkman"
+        }
+    }
+}

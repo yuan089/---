@@ -1,0 +1,22 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bangdream:walkman",
+            "menu_category": {
+                "group": "itemGroup.name.itemGroup.name.none",
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "item.bangdream:walkman"
+            },
+            "minecraft:icon": {
+                "texture": "walkman"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true
+        }
+    }
+}

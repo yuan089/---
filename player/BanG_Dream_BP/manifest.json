@@ -1,0 +1,40 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Jukebox-BP",
+        "description": "Jukebox and Portable Player Logic，提供唱片機邏輯和隨身聽之功能，ジュークボックスのロジックとポータブルプレーヤーの機能を提供します，주크박스 로직과 휴대용 플레이어 기능을 제공합니다",
+        "uuid": "f6c3d4e5-a1b2-4c3d-9e0f-1a2b3c4d5e6f",
+        "version": [1, 6, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "Logic Module",
+            "type": "data",
+            "uuid": "74fa906e-826d-4952-959c-6a7e0f21469e",
+            "version": [1, 6, 0]
+        },
+        {
+            "description": "Scripting Module",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "7c1397b9-873b-487b-832f-45e053f3e9a5",
+            "version": [1, 6, 0],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.10.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0"
+        },
+        {
+            "uuid": "d4a1b2c3-e5f6-4a1b-9c0d-1e2f3a4b5c6d",
+            "version": [1, 6, 0]
+        }
+    ]
+}
